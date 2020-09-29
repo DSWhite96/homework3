@@ -40,7 +40,7 @@ p{
 
 a{
   font-size: 16px;
-  color: #C12258; /*#B21F50 or #B92751*/
+  color: #B21F50; /*#B92751 or C12258*/
   text-decoration: underline;
   text-decoration-style: wavy;
 }
@@ -81,7 +81,7 @@ tr :hover(){
 
 tbody :nth-child(odd){
   background-color: transparent;
-} 
+}
 
 tbody :nth-child(even){
   background-color: #D1D1D1;
