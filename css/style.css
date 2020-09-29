@@ -76,14 +76,16 @@ tr :hover(){
   background-color: #7e0820;
 }
 
-td :nth-child(odd){
+tbody :nth-child(odd){
   background-color: transparent;
 } 
 
-td :nth-child(even){
+tbody :nth-child(even){
   background-color: #D1D1D1;
 }
-thead tr:first-child th:first-child{}
+thead tr:first-child th:first-child{
+  border-left: none;
+}
 
 footer{
   min-height: 75px;
